@@ -41,6 +41,12 @@
             <h2>${house.name}</h2>
             <p><strong>Region</strong> ${house.region || "Unknown"}</p>
             <p><strong>Coat of Arms:</strong> ${house.coatOfArms || "None"}</p>
-        `}
+        `;
+
+        document.getElementById("houseResult").innerHTML = html;
+    } catch (error) {
+        document.getElementById("houseResult").innerHTML =
+        "House not found or an error occurred.";
     }
+}
   </script>
