@@ -1,5 +1,5 @@
 [
-{"item": {
+{
 "url": "https://anapioficeandfire.com/api/houses/1",
 "name": "House Algood",
 "region": "The Westerlands",
@@ -16,7 +16,7 @@
 "ancestralWeapons": [],
 "cadetBranches": [],
 "swornMembers": []
-} },
+},
 {
 "url": "https://anapioficeandfire.com/api/houses/2",
 "name": "House Allyrion of Godsgrace",
