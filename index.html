@@ -38,9 +38,9 @@
             const house = await res.json();
 
             const html = `
-            <h2>${house.item.name}</h2>
-            <p><strong>Region</strong> ${house.item.region || "Unknown"}</p>
-            <p><strong>Coat of Arms:</strong> ${house.item.coatOfArms || "None"}</p>
+            <h2>${house.name}</h2>
+            <p><strong>Region</strong> ${house.region || "Unknown"}</p>
+            <p><strong>Coat of Arms:</strong> ${house.coatOfArms || "None"}</p>
         `;
 
         document.getElementById("houseResult").innerHTML = html;
